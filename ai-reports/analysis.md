@@ -1,8 +1,8 @@
 {
-  "id": 36,
+  "id": 37,
   "code": 0,
   "signal": " ",
-  "stdout": "METRICS COLLECTOR\n\nDetection Time: 1780770467596\nSimulation Duration: 50ms\nRoute Build Duration: 20ms\nTotal Latency: 70ms",
+  "stdout": "SCANNER METRICS\nTotal Opportunities: 1000\nScan Duration: 294.03 ms\nOpportunities Per Second: 3401.03",
   "stderr": "",
-  "created_at": "2026-06-06T18:27:47.692Z"
+  "created_at": "2026-06-06T18:29:20.092Z"
 }
