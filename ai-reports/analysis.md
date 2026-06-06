@@ -1,8 +1,8 @@
 {
-  "id": 59,
+  "id": 60,
   "code": 0,
   "signal": " ",
-  "stdout": "RPC_URL=\nDEPLOYING PROJECT: pool_discovery_system\nCURRENT DIRECTORY:\n/home/ubuntu/projects/pool_discovery_system\nFILES:\n./requirements.txt\n./pools.json\n./discover.py\nDefaulting to user installation because normal site-packages is not writeable\nRequirement already satisfied: requests in /usr/lib/python3/dist-packages (from -r requirements.txt (line 1)) (2.31.0)\nRequirement already satisfied: jsonschema in /usr/lib/python3/dist-packages (from -r requirements.txt (line 2)) (4.10.3)\nRequirement already satisfied: attrs>=17.4.0 in /usr/lib/python3/dist-packages (from jsonschema->-r requirements.txt (line 2)) (23.2.0)\nRequirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in /usr/lib/python3/dist-packages (from jsonschema->-r requirements.txt (line 2)) (0.20.0)\nRUNNING:\nDiscovered 2 pools.\n- Pool pool_01: active\n- Pool pool_02: maintenance\nDiscovered 2 pools.\n- Pool pool_01: active\n- Pool pool_02: maintenance",
-  "stderr": "",
-  "created_at": "2026-06-06T22:21:02.813Z"
+  "stdout": "RPC_URL=\nDEPLOYING PROJECT: rpc_proof\nCURRENT DIRECTORY:\n/home/ubuntu/projects/rpc_proof\nFILES:\n./package.json\n./index.js\nRUNNING:\n\nadded 76 packages, and audited 77 packages in 4s\n\n25 packages are looking for funding\n  run `npm fund` for details\n\nfound 0 vulnerabilities\nLatest Block Number: 470797909\nLatest 10 transactions from the latest block:\n1: 0xa2591c3664b491afa9f779bf25f22f9ef32fe3ed50053b227255fc24978e230b\n2: 0x3924a09f6a952064e166a83cff10159a802190b7e58f7355721c4923c6274b50\n3: 0xf36724a00be4774b41915cb2f2ed4eb7ee64cf95e5a4e8ad4111fbfcec4e456b\n\nup to date, audited 77 packages in 435ms\n\n25 packages are looking for funding\n  run `npm fund` for details\n\nfound 0 vulnerabilities\nLatest Block Number: 470797912\nLatest 10 transactions from the latest block:\n1: 0x8126ffbda5ed6578bdc328e2d107d4b33c6ed67ea01d76bbb1706ec066ec12ab\n2: 0x052d517a451abb37409c743b9b160d938555ede691017d415b11c45a5fb54168",
+  "stderr": "(node:1293452) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n(node:1293435) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)",
+  "created_at": "2026-06-06T22:23:18.353Z"
 }
