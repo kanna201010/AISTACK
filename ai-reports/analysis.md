@@ -1,8 +1,8 @@
 {
-  "id": 60,
-  "code": 0,
+  "id": 61,
+  "code": 1,
   "signal": " ",
-  "stdout": "RPC_URL=\nDEPLOYING PROJECT: rpc_proof\nCURRENT DIRECTORY:\n/home/ubuntu/projects/rpc_proof\nFILES:\n./package.json\n./index.js\nRUNNING:\n\nadded 76 packages, and audited 77 packages in 4s\n\n25 packages are looking for funding\n  run `npm fund` for details\n\nfound 0 vulnerabilities\nLatest Block Number: 470797909\nLatest 10 transactions from the latest block:\n1: 0xa2591c3664b491afa9f779bf25f22f9ef32fe3ed50053b227255fc24978e230b\n2: 0x3924a09f6a952064e166a83cff10159a802190b7e58f7355721c4923c6274b50\n3: 0xf36724a00be4774b41915cb2f2ed4eb7ee64cf95e5a4e8ad4111fbfcec4e456b\n\nup to date, audited 77 packages in 435ms\n\n25 packages are looking for funding\n  run `npm fund` for details\n\nfound 0 vulnerabilities\nLatest Block Number: 470797912\nLatest 10 transactions from the latest block:\n1: 0x8126ffbda5ed6578bdc328e2d107d4b33c6ed67ea01d76bbb1706ec066ec12ab\n2: 0x052d517a451abb37409c743b9b160d938555ede691017d415b11c45a5fb54168",
-  "stderr": "(node:1293452) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n(node:1293435) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)",
-  "created_at": "2026-06-06T22:23:18.353Z"
+  "stdout": "RPC_URL=\nDEPLOYING PROJECT: arbitrum_real_price_proof\nCURRENT DIRECTORY:\n/home/ubuntu/projects/arbitrum_real_price_proof\nFILES:\n./package.json\n./index.js\nRUNNING:\n\nadded 9 packages, and audited 10 packages in 947ms\n\n3 packages are looking for funding\n  run `npm fund` for details\n\n2 moderate severity vulnerabilities\n\nTo address all issues (including breaking changes), run:\n  npm audit fix --force\n\nRun `npm audit` for details.\n\nup to date, audited 10 packages in 414ms\n\n3 packages are looking for funding\n  run `npm fund` for details\n\n2 moderate severity vulnerabilities\n\nTo address all issues (including breaking changes), run:\n  npm audit fix --force\n\nRun `npm audit` for details.",
+  "stderr": "Error fetching data: bad address checksum (argument=\"address\", value=\"0x84680027205167664D984405F411C640A0F174a7\", code=INVALID_ARGUMENT, version=6.16.0)\nError fetching data: bad address checksum (argument=\"address\", value=\"0x84680027205167664D984405F411C640A0F174a7\", code=INVALID_ARGUMENT, version=6.16.0)",
+  "created_at": "2026-06-06T22:27:06.832Z"
 }
