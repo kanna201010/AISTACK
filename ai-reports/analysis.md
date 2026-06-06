@@ -1,8 +1,8 @@
 {
-  "id": 42,
+  "id": 43,
   "code": 1,
   "signal": " ",
   "stdout": "",
-  "stderr": "error: externally-managed-environment\n\n× This environment is externally managed\n╰─> To install Python packages system-wide, try apt install\n    python3-xyz, where xyz is the package you are trying to\n    install.\n    \n    If you wish to install a non-Debian-packaged Python package,\n    create a virtual environment using python3 -m venv path/to/venv.\n    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make\n    sure you have python3-full installed.\n    \n    If you wish to install a non-Debian packaged Python application,\n    it may be easiest to use pipx install xyz, which will manage a\n    virtual environment for you. Make sure you have pipx installed.\n    \n    See /usr/share/doc/python3.12/README.venv for more information.\n\nnote: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.\nhint: See PEP 668 for the detailed specification.",
-  "created_at": "2026-06-06T19:35:00.709Z"
+  "stderr": "Traceback (most recent call last):\n  File \"/home/ubuntu/projects/ethereum-scanner/main.py\", line 1, in <module>\n    from scanner import Scanner\n  File \"/home/ubuntu/projects/ethereum-scanner/scanner.py\", line 2, in <module>\n    from config import RPC_URL\n  File \"/home/ubuntu/projects/ethereum-scanner/config.py\", line 6, in <module>\n    raise ValueError(\"RPC_URL or QUICKNODE_RPC_URL environment variable not found\")\nValueError: RPC_URL or QUICKNODE_RPC_URL environment variable not found",
+  "created_at": "2026-06-06T19:36:21.213Z"
 }
