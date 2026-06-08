@@ -1,8 +1,8 @@
 {
-  "id": 75,
-  "code": 1,
+  "id": 76,
+  "code": 0,
   "signal": " ",
-  "stdout": "PROJECT=arbitrum-liquidity-analyzer\nPYTHON PROJECT DETECTED\nRequirement already satisfied: pip in ./venv/lib/python3.12/site-packages (24.0)\nCollecting pip\n  Using cached pip-26.1.2-py3-none-any.whl.metadata (4.6 kB)\nUsing cached pip-26.1.2-py3-none-any.whl (1.8 MB)\nInstalling collected packages: pip\n  Attempting uninstall: pip\n    Found existing installation: pip 24.0\n    Uninstalling pip-24.0:\n      Successfully uninstalled pip-24.0\nSuccessfully installed pip-26.1.2\nRUNNING PROJECT",
-  "stderr": "Traceback (most recent call last):\n  File \"/home/ubuntu/projects/arbitrum-liquidity-analyzer/analyzer.py\", line 2, in <module>\n    from web3 import Web3\nModuleNotFoundError: No module named 'web3'",
-  "created_at": "2026-06-08T20:05:27.868Z"
+  "stdout": "PROJECT=crypto_price_tracker\nPYTHON PROJECT DETECTED\nRequirement already satisfied: requests in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 1)) (2.31.0)\nRequirement already satisfied: charset-normalizer<4,>=2 in ./venv/lib/python3.12/site-packages (from requests->-r requirements.txt (line 1)) (3.4.7)\nRequirement already satisfied: idna<4,>=2.5 in ./venv/lib/python3.12/site-packages (from requests->-r requirements.txt (line 1)) (3.18)\nRequirement already satisfied: urllib3<3,>=1.21.1 in ./venv/lib/python3.12/site-packages (from requests->-r requirements.txt (line 1)) (2.7.0)\nRequirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.12/site-packages (from requests->-r requirements.txt (line 1)) (2026.5.20)\nRUNNING PROJECT\nStarting Crypto Price Tracker (Bitcoin)...\nCurrent Bitcoin price: $63,315",
+  "stderr": "",
+  "created_at": "2026-06-08T20:14:20.210Z"
 }
